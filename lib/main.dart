@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const FitMateApp());
@@ -14,7 +14,7 @@ class FitMateApp extends StatelessWidget {
       title: 'FitMate',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }
